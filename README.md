@@ -2,4 +2,4 @@ This is just a little script to update Ampache to the chosen version. Downgrade 
 Requirements: 
 * Working database connection, in my case '~/.my.cnf'
 * Tunning path to fit your system.
-* Ampache version as an argument (Ex: 'v3.8.6')
+* Ampache version as an argument (Ex: '3.8.6')
