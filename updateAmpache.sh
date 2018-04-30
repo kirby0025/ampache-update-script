@@ -21,7 +21,7 @@ mysqldump ampache > $MYSQL_BACKUP
 
 # Downloading archive from github project release page
 echo "Downloading Ampache Archive"
-curl -L -4 https://github.com/ampache/ampache/releases/download/3.8.6/ampache-3.8.6_all.zip -o $TMP_ZIP
+curl -L -4 https://github.com/ampache/ampache/releases/download/$1/ampache-$1_all.zip -o $TMP_ZIP
 
 # Backup existing Ampache folder
 echo "Backup previous version"
